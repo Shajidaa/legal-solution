@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="max-w-6xl mx-auto p-5">
-    <head>
+    <head class="">
       <nav
         class="flex flex-col gap-5 md:justify-between md:flex-row items-center text-base"
       >
@@ -327,22 +327,52 @@
         </div>
       </section>
     </main>
-    <footer class="bg-black hidden">
-      <div>
-        <div>
+    <footer class="bg-black text-white">
+      <div
+        class="flex flex-col md:flex-row justify-between flex-1 gap-3 p-15 mt-10"
+      >
+        <div class="md:w-[20%]">
           <img src="./images/logo.png" alt="" />
-          <p>
+          <p class="">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour.
           </p>
         </div>
-        <div>
-          <h1>Useful Link</h1>
-          n
+        <div class="">
+          <h1 class="text-2xl font-bold">Useful Link</h1>
+          <ul class="list-none">
+            <li>Homes</li>
+            <li>About Us</li>
+            <li>Cases</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+          </ul>
         </div>
-        <div></div>
-        <div></div>
+        <div class="">
+          <h1 class="text-2xl font-bold">Contact Now</h1>
+          <div>
+            <p>
+              555 4th 5t NW, Washington <br />
+              DC 20530, United States
+            </p>
+            <br />
+            <p>
+              +88 01750 000 000 <br />
+              +88 01750 000 000
+            </p>
+            <p>
+              info@gmail.com <br />
+              info@gmail.com
+            </p>
+          </div>
+        </div>
+        <div class="md:w-[20%]">
+          <h1 class="text-2xl font-bold">Subscribe</h1>
+          <p>
+            Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+          </p>
+        </div>
       </div>
     </footer>
   </body>
