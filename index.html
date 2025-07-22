@@ -165,19 +165,25 @@
           the majority have suffered alteration in some form, by injected
           humour.
         </p>
-        <div
-          class="mb-13 md:mb-20 flex flex-col justify-center items-center bg-cover text-white h-[550px] mt-5 rounded-lg text-center gap-3"
+        <!-- <div
+          class="mb-13 md:mb-20 flex flex-col justify-center relative items-center bg-cover text-white h-[550px] mt-5 rounded-lg text-center gap-3"
           style="background-image: url(./images/banner.png)"
+        > -->
+        <div
+          class="relative h-[550px] mt-5 rounded-lg bg-cover bg-center bg-no-repeat text-white text-center flex flex-col justify-center items-center gap-3"
+          style="background-image: url('./images/banner.png')"
         >
+          <!-- Overlay -->
+          <div class="absolute inset-0 bg-black/30 rounded-lg"></div>
           <img
-            class="w-[70px] h-[70px] rounded-full"
+            class="w-[70px] h-[70px] rounded-full z-10"
             src="./images/profiel.jpg"
             alt=""
           />
-          <h2 class="text-2xl font-bold">Awlad Hossain</h2>
-          <p class="text-xl font-bold">UIX Designer</p>
+          <h2 class="text-2xl font-bold z-10">Awlad Hossain</h2>
+          <p class="text-xl font-bold z-10">UIX Designer</p>
           <p
-            class="text-center text-base font-medium text-wrap md:w-[70%] mx-auto"
+            class="text-center text-base z-10 font-medium text-wrap md:w-[70%] mx-auto"
           >
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
